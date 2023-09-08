@@ -20,23 +20,18 @@
 
 # 📖 [MORSECODE] <a name="about-project"></a>
 
-**[MORSECODE]** is a project that aims to create a database for a clinic using postgresql from tables
+**[MORSECODE]** is a project that aims to write a ruby program that Decode a Morse code message
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
+
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
   </ul>
 </details>
 
@@ -49,21 +44,12 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Raw postgresql queries]**
-- **[Query Results]**
-- **[Schema]**
+- **[Ruby Funtion]**
+- **[Loops in Ruby]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-# clinic Database
-
-This repository includes files with plain SQL that can be used to recreate a database:
-
-- Use [schema_based_on_diagram.sql](./schema_based_on_diagram.sql) to create all tables.
-
-<a name="readme-top"></a>
 
 ### Prerequisites
 
@@ -87,20 +73,9 @@ Clone this repository to your desired folder:
 
 Install this project with:
 
-Install postgreSQL [https://www.postgresql.org/download/]
+Install Ruby [https://www.ruby-lang.org/en/documentation/installation/]
 
-### Run tests
 
-To run tests,
--copy the code in schema.sql in your psql commandline and execute
--Copy the code in data.sql and run it in the psql commandline
--Then run each of the queries in queries.sql one by one on the psql commandline
-
-### LIVE DEMO <a name="live-demo"></a>
-
-coming soon
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -111,15 +86,21 @@ coming soon
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/samuel-munguti-8a257a1bb/)
 
 
+👤 **Cephas, Tokoli**
+
+- GitHub: [@Ctokoli](https://github.com/ctokoli/)
+- Twitter: [@Ctokoli](https://twitter.com/ctokoli)
+- LinkedIn: [Cephas Tokoli](https://www.linkedin.com/in/cephas-tokoli-a25204123/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[Server integration]**
-- [ ] **[Cluster implementaion]**
-- [ ] **[Performance review]**
+- [ ] **[]**
+- [ ] **[]**
+- [ ] **[]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,8 +128,6 @@ We would like to thank Microverse community.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
