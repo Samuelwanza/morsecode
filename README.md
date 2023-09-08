@@ -1,4 +1,3 @@
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -25,8 +24,6 @@
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-
 
 <details>
   <summary>Server</summary>
@@ -75,8 +72,6 @@ Install this project with:
 
 Install Ruby [https://www.ruby-lang.org/en/documentation/installation/]
 
-
-
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Samuel Wanza**
@@ -85,12 +80,16 @@ Install Ruby [https://www.ruby-lang.org/en/documentation/installation/]
 - Twitter: [@Samuelwanza](https://twitter.com/samuelmunguti9)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/samuel-munguti-8a257a1bb/)
 
-
 👤 **Cephas, Tokoli**
 
 - GitHub: [@Ctokoli](https://github.com/ctokoli/)
 - Twitter: [@Ctokoli](https://twitter.com/ctokoli)
 - LinkedIn: [Cephas Tokoli](https://www.linkedin.com/in/cephas-tokoli-a25204123/)
+
+👤 **MAjd Alkilany**
+
+- GitHub: [@majdalkilany](https://github.com/majdalkilany/)
+- LinkedIn: [Cephas Tokoli](https://www.linkedin.com/in/majdalkilany/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
