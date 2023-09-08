@@ -1,4 +1,4 @@
-$morse_code_dict = {
+MORSE_CODE_DICT = {
   'A' => '.-',     'B' => '-...', 'C' => '-.-.', 'D' => '-..',
   'E' => '.',      'F' => '..-.',   'G' => '--.',    'H' => '....',
   'I' => '..',     'J' => '.---',   'K' => '-.-',    'L' => '.-..',
@@ -11,7 +11,7 @@ $morse_code_dict = {
 def decode_word(word)
   word.split('   ').map do |i|
     i.split(' ').map do |j|
-      $morse_code_dict.key(j) || i
+      MORSE_CODE_DICT.key(j) || i
     end.join('')
   end.join(' ')
 end
