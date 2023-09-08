@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 MORSE_CODE_DICT = {
   'A' => '.-',     'B' => '-...', 'C' => '-.-.', 'D' => '-..',
   'E' => '.',      'F' => '..-.',   'G' => '--.',    'H' => '....',
@@ -7,7 +9,7 @@ MORSE_CODE_DICT = {
   'U' => '..-',    'V' => '...-',   'W' => '.--',    'X' => '-..-',
   'Y' => '-.--',   'Z' => '--..',
   ' ' => ' '
-}
+}.freeze
 def decode_word(word)
   word.split('   ').map do |i|
     i.split(' ').map do |j|
