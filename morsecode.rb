@@ -7,14 +7,14 @@ def decode_word(word)
     'Q' => '--.-',   'R' => '.-.',    'S' => '...',    'T' => '-',
     'U' => '..-',    'V' => '...-',   'W' => '.--',    'X' => '-..-',
     'Y' => '-.--',   'Z' => '--..',
-    '0' => '-----', ' ' => ' ',
+    ' ' => ' '
   }
-  word.split("   ").map do |i|
-    i.split(" ").map do |j|
+  word.split('   ').map do |i|
+    i.split(' ').map do |j|
       morse_code_dict.key(j) || i
-    end.join("")
-  end.join(" ")
+    end.join('')
+  end.join(' ')
 end
 
-puts decode_word("-- -.--   -. .- -- .")
-puts decode_word(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
+puts decode_word('-- -.--   -. .- -- .')
+puts decode_word('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
